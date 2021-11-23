@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+<listener class-name="Common.TestListener"></listener>
+</listeners>
+<test thread-count="5" name="Test">
+<parameter name="platformName" value="Android"></parameter>
+<parameter name="PlatFormVersion" value="7"></parameter>
+<parameter name="udid" value="emulator-5558"></parameter>
+<parameter name="deviceName" value="AOSP on IA Emulator"></parameter>
+<parameter name="AVD" value="Pixel_3a_API_28"></parameter>
+	<parameter name="appPackage" value="com.qwqer.customer"></parameter>
+	<parameter name="appActivity" value="com.qwqer.customer.ui.splash.SplashScreenActivity"></parameter>
+		<classes>
+			<class name="TestFunctions.QWQER_SC_001_Customer_PlaceOrder" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test1">
+<parameter name="platformName" value="Android"></parameter>
+<parameter name="PlatFormVersion" value="9"></parameter>
+<parameter name="udid" value="emulator-5558"></parameter>
+<parameter name="deviceName" value="Android SDK built for x86"></parameter>
+<parameter name="AVD" value="Pixel_3a_API_28"></parameter>
+	<parameter name="appPackage" value="com.qwqer.partner"></parameter>
+	<parameter name="appActivity" value="com.qwqer.partner.ui.splash.SplashScreenActivity"></parameter>
+		<classes>
+			<class name="TestFunctions.QWQER_SC_002_Partner_Accept_PlacedOrder" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

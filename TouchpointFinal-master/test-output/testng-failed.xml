@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Common.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="TC_010-Sign in as student and create a session request(failed)">
+    <classes>
+      <class name="TestFunctions.Admin_ReportsModule">
+        <methods>
+          <include name="verifyAdminReports_StudentListing"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TestFunctions.Admin_ReportsModule -->
+    </classes>
+  </test> <!-- TC_010-Sign in as student and create a session request(failed) -->
+</suite> <!-- Failed suite [Suite] -->

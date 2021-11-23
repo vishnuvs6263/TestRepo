@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13219" started-at="2021-08-24T14:12:02 IST" finished-at="2021-08-24T14:12:15 IST">
+    <groups>
+    </groups>
+    <test name="TC_010-Sign in as student and create a session request" duration-ms="13219" started-at="2021-08-24T14:12:02 IST" finished-at="2021-08-24T14:12:15 IST">
+      <class name="TestFunctions.Login_Admin">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:TestFunctions.Login_Admin@33cb5951]" name="initDriver" is-config="true" duration-ms="5295" started-at="2021-08-24T14:11:56 IST" finished-at="2021-08-24T14:12:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:TestFunctions.Login_Admin@33cb5951]" name="verifyLogin" duration-ms="2993" started-at="2021-08-24T14:12:02 IST" finished-at="2021-08-24T14:12:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- TestFunctions.Login_Admin -->
+      <class name="TestFunctions.Admin_ReportsModule">
+        <test-method status="PASS" signature="verifyAdminReports_StaffListing()[pri:1, instance:TestFunctions.Admin_ReportsModule@365c30cc]" name="verifyAdminReports_StaffListing" duration-ms="5244" started-at="2021-08-24T14:12:05 IST" finished-at="2021-08-24T14:12:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminReports_StaffListing -->
+        <test-method status="PASS" signature="verifyAdminReports_StudentListing()[pri:2, instance:TestFunctions.Admin_ReportsModule@365c30cc]" name="verifyAdminReports_StudentListing" duration-ms="4891" started-at="2021-08-24T14:12:10 IST" finished-at="2021-08-24T14:12:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminReports_StudentListing -->
+      </class> <!-- TestFunctions.Admin_ReportsModule -->
+    </test> <!-- TC_010-Sign in as student and create a session request -->
+  </suite> <!-- Suite -->
+</testng-results>

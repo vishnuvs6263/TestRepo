@@ -1,0 +1,14 @@
+package Common;
+
+import org.testng.annotations.Test;
+
+public class BaseClass {
+	
+	@Test
+	public static void InitializeBrowser() {
+		
+		String ProjectPath = System.getProperty("user.dir");
+		System.out.println(ProjectPath);
+	}
+
+}

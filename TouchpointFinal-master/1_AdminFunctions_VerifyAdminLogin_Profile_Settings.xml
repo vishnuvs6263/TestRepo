@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Common.TestListener" />
+	</listeners>
+
+	<test name="TC_001-Verify admin sign in and profile functions">
+		<classes>
+			<class name="TestFunctions.Login_NegativeVerifications" />
+			<class name="TestFunctions.Login_Admin" />
+			<class name="TestFunctions.AdminProfileFunctions" />
+			<class name="TestFunctions.Logout" />
+		</classes>
+	</test>
+
+	<test name="TC_002-Verify manage settings module as admin">
+		<classes>	
+			<class name="TestFunctions.Login_Admin" />
+			<class
+				name="TestFunctions.SettingsFunctions_Manage_Institution" />
+			<class name="TestFunctions.SettingsFunctions_Add_SupportType" />
+			<class name="TestFunctions.SettingsFunctions_Manage_Role" />
+			<class
+				name="TestFunctions.SettingsFunctions_Delete_SupportType" />
+			<class
+				name="TestFunctions.SettingsFunctions_Manage_FundingBody" />
+			<class name="TestFunctions.Logout" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TC_003-Verify create settings as admin">
+		<classes>
+			<class name="TestFunctions.Login_Admin" />
+			<class name="TestFunctions.SettingsFunctions_Add_Institution" />
+			<class name="TestFunctions.SettingsFunctions_Add_SupportType" />
+			<class name="TestFunctions.SettingsFunctions_Add_Role" />
+			<class name="TestFunctions.SettingsFunctions_Add_FundingBody" />
+			<class
+				name="TestFunctions.SettingsFunctions_Add_DocumentCategory" />
+			<class name="TestFunctions.SettingsFunctions_Add_DocumentFile" />
+			<class name="TestFunctions.SettingsFunctions_Add_FileBundle" />
+			<class
+				name="TestFunctions.SettingsFunctions_Add_ReviewQuestions" />
+			<class name="TestFunctions.Logout" />
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->

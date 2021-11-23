@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Common.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="PlaceAnOrder(failed)">
+    <parameter name="appPackage" value="com.qwqer.customer"/>
+    <parameter name="appActivity" value="com.qwqer.customer.ui.splash.SplashScreenActivity"/>
+    <parameter name="PlatFormVersion" value="8.0.1"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Android SDK built for x86"/>
+    <parameter name="AVD" value="Nexus_5X_API_27"/>
+    <classes>
+      <class name="TestFunctions.QWQER_SC_001_Customer_PlaceOrder">
+        <methods>
+          <include name="Login"/>
+          <include name="VerifyProductDetails"/>
+          <include name="AddDeliveryAddressDetails"/>
+          <include name="GetOrderDetails"/>
+          <include name="PlaceOrder"/>
+          <include name="VerifyReceiverDetails"/>
+          <include name="VerifySenderDetails"/>
+          <include name="AddPicupAddressDetails"/>
+          <include name="AddProductDetails"/>
+          <include name="VerifyLogin"/>
+        </methods>
+      </class> <!-- TestFunctions.QWQER_SC_001_Customer_PlaceOrder -->
+    </classes>
+  </test> <!-- PlaceAnOrder(failed) -->
+  <test thread-count="5" name="AcceptnDeliverOrder(failed)">
+    <parameter name="appPackage" value="com.qwqer.partner"/>
+    <parameter name="appActivity" value="com.qwqer.partner.ui.splash.SplashScreenActivity"/>
+    <parameter name="PlatFormVersion" value="8.0.1"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Android SDK built for x86"/>
+    <parameter name="AVD" value="Nexus_5X_API_27"/>
+    <classes>
+      <class name="TestFunctions.QWQER_SC_002_Partner_Accept_PlacedOrder">
+        <methods>
+          <include name="DriverLogin"/>
+          <include name="PickUpandDeliverOrder"/>
+          <include name="AcceptSenderOrReceiverDetails"/>
+          <include name="AcceptPlacedOrder"/>
+        </methods>
+      </class> <!-- TestFunctions.QWQER_SC_002_Partner_Accept_PlacedOrder -->
+    </classes>
+  </test> <!-- AcceptnDeliverOrder(failed) -->
+  <test thread-count="5" name="VerifyDeliveredOrder(failed)">
+    <parameter name="appPackage" value="com.qwqer.customer"/>
+    <parameter name="appActivity" value="com.qwqer.customer.ui.splash.SplashScreenActivity"/>
+    <parameter name="PlatFormVersion" value="8.0.1"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="deviceName" value="Android SDK built for x86"/>
+    <parameter name="AVD" value="Nexus_5X_API_27"/>
+    <classes>
+      <class name="TestFunctions.QWQER_SC_003_Customer_VerifyDeliveredOrderStatus">
+        <methods>
+          <include name="PlaceOrder"/>
+          <include name="VerifyReceiverDetails"/>
+          <include name="AddPicupAddressDetails"/>
+          <include name="AddProductDetails"/>
+          <include name="Login"/>
+          <include name="VerifyDeliveredOrderDetails"/>
+          <include name="VerifyProductDetails"/>
+          <include name="CancelPlacedOrder"/>
+          <include name="AddDeliveryAddressDetails"/>
+        </methods>
+      </class> <!-- TestFunctions.QWQER_SC_003_Customer_VerifyDeliveredOrderStatus -->
+    </classes>
+  </test> <!-- VerifyDeliveredOrder(failed) -->
+</suite> <!-- Failed suite [Suite] -->

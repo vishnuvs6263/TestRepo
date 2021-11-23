@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Common.TestListener" />
+	</listeners>
+
+	<test
+		name="TC_006-Sign in as student and create a session request">
+		
+		
+		<classes>
+		<class name="TestFunctions.Login_Admin" />
+		<class name="TestFunctions.Staff_ManageStaff_Availability_RepeatDaily" />
+		<class name="TestFunctions.Logout" />
+			<class name="TestFunctions.Login_Staff" />
+			<class name="TestFunctions.Staff_CreateEvent" />
+			<class name="TestFunctions.Staff_CancelEvent" />
+			
+		</classes>
+	</test>
+
+	
+
+	
+	
+</suite> <!-- Suite -->

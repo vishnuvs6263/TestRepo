@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Common.TestListener" />
+	</listeners>
+
+
+
+	<test name="TC_013-Sign in as admin and verify the details displayed in timesheet module">
+
+		<classes>
+
+			<class name="TestFunctions.Login_Admin" />
+			<class name="TestFunctions.Admin_TimesheetModule" />
+			<class name="TestFunctions.Logout" />
+			
+
+		</classes>
+
+	</test>
+
+
+
+
+
+</suite> <!-- Suite -->
