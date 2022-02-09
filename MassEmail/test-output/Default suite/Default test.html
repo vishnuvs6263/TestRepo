@@ -1,0 +1,439 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 04 15:09:35 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>195 seconds (195539 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Abdulhamid, Chief Executive Officer, First Abu Dhabi Bank, abdulhamid.saeed@nbad.com,  +971-2-681-1511, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: André, Deputy CEO & Group Head of Corporate & Investment Banking, First Abu Dhabi Bank, andre.sayegh@nbad.com,  +971-2-681-1511, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Zulfiqar, Group Chief Integration Officer & Acting Group Head of International Banking, First Abu Dhabi Bank, zulfiqar.sulaiman@nbad.com,  +971-2-681-1511, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Khaled, Chief Human Capital Officer, Mubadala Development, kalqubaisi@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Balakrishnan, Vice President, Payments & Enterprise Solutions, First Abu Dhabi Bank, balakrishnan.sathish@nbad.ae,  +971-2-681-1511, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Mansour, Chief Information Officer, Mubadala Development, malketbi@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Sanjay, Chief Digital & Innovation Officer, Dubai Islamic Bank PJSC, sanjay.malhotra@dib.ae,  +971 4295-3000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>6</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Shefali, Chief Operating Officer (Americas) & Chief Marketing Officer & Head of Banking & Financial Software, Agile Financial Technologies, shefali.khera@agile-ft.com,  +971-4433-1825, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Paul, Chief Executive Officer, London Operations, First Abu Dhabi Bank, paul.hartwell@bankfab.com,  +971-2-681-1511, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Sridhar, Head of Marketing & Head of Mashreq NEO, Mashreqbank, sridhari@mashreq.com,  +971 4-222-3333, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>3</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Viru, Assistant VP, Trade Finance & Supply Chain Product, Sales & Services, United Arab Bank, viru.saria@uab.ae,  +971-6507-5222, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Khaldoon Khalifa, Group Chief Executive Officer & Managing Director, Mubadala Development, kalmubarak@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Yusra, Technical Assistant Lead, Mubadala Development, ymansour@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Sarkis, Project Manager & Collaboration Technology Lead, Mubadala Development, ssaliba@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>6</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Wafa, Senior Technology Specialist, Mubadala Development, wbengra@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Maxime, Chief Information Officer (Public Equities), Mubadala Development, mfranzetti@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Derek, Chief Financial Officer, Mubadala Development, drozycki@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Nawaf, Research Analyst, Mubadala Development, nalnaqbi@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Mohsin, Senior Manager, Projects & Payments, United Arab Bank, mohsin.qadeer@uab.ae,  +971-6507-5222, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Manish, Vice President & Global Payments & Cash Management Head, United Arab Bank, manish.gupta@uab.ae,  +971-6507-5222, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Nabeel, Assistant VP & Manager, Product Delivery Unit, Mashreqbank, nabeelp@mashreq.com,  +971 4-222-3333, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Chris, Chief Executive Officer, Dunia Finance, chrisdebruin@dunia.ae,  +971-4423-8642, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Jayasheel, Chief Financial Officer, Dunia Finance, jayasheelbhansali@dunia.ae,  +971-4423-8642, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Richard, Chief Compliance Officer, Dunia Finance, richardekoot@dunia.ae,  +971-4423-8642, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Roy, Chief Marketing Officer, Dunia Finance, royhutchinson@dunia.ae,  +971-4423-8642, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Deepak, Chief Executive Officer, Emirates International Telecommunications, deepak.padmanabhan@eitl.ae,  +971-4433-1000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Mubarak, Chief Executive Officer, Emirates Investment Authority, mubarak.almansoori@eia.gov.ae,  +971-2419-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Ahmed Yahia, Chief Executive Officer, Technology, Manufacturing & Mining, Mubadala Development, ayahia@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Musabbeh, Chief Executive Officer, Petroleum & Petrochemicals, Mubadala Development, malkaabi@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Alexander, Chief Technology Officer, Dunia Finance, alexanderkim@dunia.ae,  +971-4423-8642, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Carlos, Chief Financial Officer, Mubadala Development, cobeid@mubadala.ae,  +971-2-413-0000, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Ahmed, Chief Executive Officer, Mashreqbank, ahmedabdelaal@mashreq.com,  +971 4-222-3333, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Iqbal, Chief Executive Officer, Fajr Capital, iqbal.khan@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Rizwan, Managing Director & Chief Financial Officer, Fajr Capital, rizwan.kherati@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Atif, Managing Director, Fajr Capital, atif.mahmood@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Mubashar, Managing Director (on secondment to Bank Islam Brunei Darussalam), Fajr Capital, mubashar.khokhar@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Tom, Managing Director, Fajr Capital, tom.hodgson@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Zahid, Managing Director, Fajr Capital, zahid.kamal@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>5</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Hasli, Head of Human Capital Management & the CEOs Office, Fajr Capital, hasli.hasan@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+<tr>
+<td title='Function.SendEmail_Sales.SendMultipleEmails()'><b>SendMultipleEmails</b><br>Test class: Function.SendEmail_Sales<br>Parameters: Noman, Head of Business Development & Communications, Fajr Capital, noman.tahir@fajrcapital.com,  +971-4373-5900, Regards,
+Rashif Abdul
+Manager, Sales & Strategy – UAE, Qatar & Bahrain
+Xilligence Ltd.
++971-54-597-3371 | +91-991-611-1567 | www.xilligence.com</td>
+<td></td>
+<td>4</td>
+<td>Function.SendEmail_Sales@3af0a9da</td></tr>
+</table><p>
+</body>
+</html>
